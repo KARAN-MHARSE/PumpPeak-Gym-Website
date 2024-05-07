@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "NeueMachina";
+  src: url("./static/fonts/NeueMachina-Ultrabold.otf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./static/fonts/Poppins-Regular.ttf");
+}
+
+body {
+  background-color: #10131a;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
